@@ -13,4 +13,16 @@ void main(){
     print("Maaf, Anda tidak mendapatkan diskon");
     print("Total Belanja Anda adalah $totalBelanja");
   }
+print("===============================");
+  for (var i = 1; i <= 30; i++) {
+    if(i%3==0){
+      print("Fizz");
+    } else if(i%5==0){
+      print("Buzz");
+    } else if(i%3==0 && i%5==0){
+      print("FizzBuzz");
+    } else {
+      print(i);
+    }
+  }
 }
